@@ -1,0 +1,206 @@
+<style>
+.lx-highlight { position: relative; border-radius:3px; padding:1px 2px;}
+.lx-highlight .lx-tooltip {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  background: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: 4px;
+  padding: 6px 8px;
+  position: absolute;
+  z-index: 1000;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  max-width: 240px;
+  white-space: normal;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.lx-highlight:hover .lx-tooltip { visibility: visible; opacity:1; }
+.lx-animated-wrapper { max-width: 100%; font-family: Arial, sans-serif; }
+.lx-controls {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 8px;
+  padding: 12px; margin-bottom: 16px;
+}
+.lx-button-row {
+  display: flex; justify-content: center; gap: 8px; margin-bottom: 12px;
+}
+.lx-control-btn {
+  background: #4285f4; color: white; border: none; border-radius: 4px;
+  padding: 8px 16px; cursor: pointer; font-size: 13px; font-weight: 500;
+  transition: background-color 0.2s;
+}
+.lx-control-btn:hover { background: #3367d6; }
+.lx-progress-container {
+  margin-bottom: 8px;
+}
+.lx-progress-slider {
+  width: 100%; margin: 0; appearance: none; height: 6px;
+  background: #ddd; border-radius: 3px; outline: none;
+}
+.lx-progress-slider::-webkit-slider-thumb {
+  appearance: none; width: 18px; height: 18px; background: #4285f4;
+  border-radius: 50%; cursor: pointer;
+}
+.lx-progress-slider::-moz-range-thumb {
+  width: 18px; height: 18px; background: #4285f4; border-radius: 50%;
+  cursor: pointer; border: none;
+}
+.lx-status-text {
+  text-align: center; font-size: 12px; color: #666; margin-top: 4px;
+}
+.lx-text-window {
+  font-family: monospace; white-space: pre-wrap; border: 1px solid #90caf9;
+  padding: 12px; max-height: 260px; overflow-y: auto; margin-bottom: 12px;
+  line-height: 1.6;
+}
+.lx-attributes-panel {
+  background: #fafafa; border: 1px solid #90caf9; border-radius: 6px;
+  padding: 8px 10px; margin-top: 8px; font-size: 13px;
+}
+.lx-current-highlight {
+  border-bottom: 4px solid #ff4444;
+  font-weight: bold;
+  animation: lx-pulse 1s ease-in-out;
+}
+@keyframes lx-pulse {
+  0% { text-decoration-color: #ff4444; }
+  50% { text-decoration-color: #ff0000; }
+  100% { text-decoration-color: #ff4444; }
+}
+.lx-legend {
+  font-size: 12px; margin-bottom: 8px;
+  padding-bottom: 8px; border-bottom: 1px solid #e0e0e0;
+}
+.lx-label {
+  display: inline-block;
+  padding: 2px 4px;
+  border-radius: 3px;
+  margin-right: 4px;
+  color: #000;
+}
+.lx-attr-key {
+  font-weight: 600;
+  color: #1565c0;
+  letter-spacing: 0.3px;
+}
+.lx-attr-value {
+  font-weight: 400;
+  opacity: 0.85;
+  letter-spacing: 0.2px;
+}
+
+/* Add optimizations with larger fonts and better readability for GIFs */
+.lx-gif-optimized .lx-text-window { font-size: 16px; line-height: 1.8; }
+.lx-gif-optimized .lx-attributes-panel { font-size: 15px; }
+.lx-gif-optimized .lx-current-highlight { text-decoration-thickness: 4px; }
+</style>
+    <div class="lx-animated-wrapper lx-gif-optimized">
+      <div class="lx-attributes-panel">
+        <div class="lx-legend">Highlights Legend: <span class="lx-label" style="background-color:#D2E3FC;">key_concept</span> <span class="lx-label" style="background-color:#C8E6C9;">practical_insight</span></div>
+        <div id="attributesContainer"></div>
+      </div>
+      <div class="lx-text-window" id="textWindow">
+        # LECTURE ANALYSIS: <span class="lx-highlight lx-current-highlight" data-idx="0" style="background-color:#D2E3FC;">Slido</span> and <span class="lx-highlight" data-idx="1" style="background-color:#D2E3FC;">YouTube Streaming
+## Video Segment: 05:00 - 08:59
+
+[SLIDE DESCRIPTION]
+A slide displays the Slido logo and instructions to join at slido.com with the code #5216 897. A QR code is also visible.
+
+[TRANSCRIPT - 05:15]
+So today for our lottery participation, we will have 10 awards, five for in-class, five for online. Okay. So 10, five for in-class and five for online. So you know that what is the chances for you to get. What&#x27;s uh, not many people come to the classroom, so the chance for you to get it is high. Our class haven&#x27;t started. We still have five minutes.
+
+[TRANSCRIPT - 06:10]
+Yes. Okay. Yes. Okay. So when you just coming late, please remember to scan the <span class="lx-highlight" data-idx="2" style="background-color:#D2E3FC;">QR code</span> on the whiteboard. I&#x27;m whiteboard, not on screen. For those people coming late, scan the QR code on the whiteboard. That is for lottery game later on. On the whiteboard, not screen. Screen is different. Screen is for Slido. This QR code is for lottery.
+
+[TRANSCRIPT - 06:45]
+To keep you the free computing things. So different. <span class="lx-highlight" data-idx="3" style="background-color:#C8E6C9;">Scan the QR code before the class starts because once I start, I will not remind you again.</span> Understand? Did you scan this one? Did you scan this one? This is very small. So you have to come whiteboard, whiteboard, the QR code on whiteboard.
+
+[TRANSCRIPT - 07:17]
+And my TA was then, uh, step the result because the form only open when I say so. The TA is then bind when I say we, it&#x27;s time for lottery and after that we close. And then I will also give you the answer around that time. And, um, our screen actually is the Slido. And right now we also have the streaming on the YouTube. Can you hear me on the YouTube?</span> So then <span class="lx-highlight" data-idx="4" style="background-color:#C8E6C9;">for the people on the YouTube, and if you want to left comments, remember you need to log in into your account. Otherwise, if you just join the YouTube through guest, you do not have any right to comment.</span> <span class="lx-highlight" data-idx="5" style="background-color:#C8E6C9;">You need to log in and I will suggest you try to have the question on the Slido because when you left comments on the YouTube, it&#x27;s our TA responsible.</span>
+
+      </div>
+      <div class="lx-controls">
+        <div class="lx-button-row">
+          <button class="lx-control-btn" onclick="playPause()">▶️ Play</button>
+          <button class="lx-control-btn" onclick="prevExtraction()">⏮ Previous</button>
+          <button class="lx-control-btn" onclick="nextExtraction()">⏭ Next</button>
+        </div>
+        <div class="lx-progress-container">
+          <input type="range" id="progressSlider" class="lx-progress-slider"
+                 min="0" max="5" value="0"
+                 onchange="jumpToExtraction(this.value)">
+        </div>
+        <div class="lx-status-text">
+          Entity <span id="entityInfo">1/6</span> |
+          Pos <span id="posInfo">[20-25]</span>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function() {
+        const extractions = [{"index": 0, "class": "key_concept", "text": "Slido. A slide displays the Slido logo and instructions to join at slido.com with the code #5216 897. A QR code is also visible.", "color": "#D2E3FC", "startPos": 20, "endPos": 25, "beforeText": "# LECTURE ANALYSIS: ", "extractionText": "Slido", "afterText": " and YouTube Streaming\n## Video Segment: 05:00 - 08:59\n\n[SLIDE DESCRIPTION]\nA slide displays the Slido logo and instructions to join at slido.com with", "attributesHtml": "<div><strong>class:</strong> key_concept</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">concept_name</span>: <span class=\"lx-attr-value\">Slido</span>, <span class=\"lx-attr-key\">definition</span>: <span class=\"lx-attr-value\">A platform for audience interaction, used here for a lottery participation code and instructions.</span>, <span class=\"lx-attr-key\">difficulty_rating</span>: <span class=\"lx-attr-value\">Beginner</span>, <span class=\"lx-attr-key\">simplified_explanation</span>: <span class=\"lx-attr-value\">Slido is a tool used in presentations to engage the audience, often for Q&amp;A, polls, or in this case, a lottery.</span>}</div>"}, {"index": 1, "class": "key_concept", "text": "YouTube streaming. And right now we also have the streaming on the YouTube. Can you hear me on the YouTube?", "color": "#D2E3FC", "startPos": 30, "endPos": 1651, "beforeText": "# LECTURE ANALYSIS: Slido and ", "extractionText": "YouTube Streaming\n## Video Segment: 05:00 - 08:59\n\n[SLIDE DESCRIPTION]\nA slide displays the Slido logo and instructions to join at slido.com with the code #5216 897. A QR code is also visible.\n\n[TRANSCRIPT - 05:15]\nSo today for our lottery participation, we will have 10 awards, five for in-class, five for online. Okay. So 10, five for in-class and five for online. So you know that what is the chances for you to get. What&#x27;s uh, not many people come to the classroom, so the chance for you to get it is high. Our class haven&#x27;t started. We still have five minutes.\n\n[TRANSCRIPT - 06:10]\nYes. Okay. Yes. Okay. So when you just coming late, please remember to scan the QR code on the whiteboard. I&#x27;m whiteboard, not on screen. For those people coming late, scan the QR code on the whiteboard. That is for lottery game later on. On the whiteboard, not screen. Screen is different. Screen is for Slido. This QR code is for lottery.\n\n[TRANSCRIPT - 06:45]\nTo keep you the free computing things. So different. Scan the QR code before the class starts because once I start, I will not remind you again. Understand? Did you scan this one? Did you scan this one? This is very small. So you have to come whiteboard, whiteboard, the QR code on whiteboard.\n\n[TRANSCRIPT - 07:17]\nAnd my TA was then, uh, step the result because the form only open when I say so. The TA is then bind when I say we, it&#x27;s time for lottery and after that we close. And then I will also give you the answer around that time. And, um, our screen actually is the Slido. And right now we also have the streaming on the YouTube. Can you hear me on the YouTube?", "afterText": " So then for the people on the YouTube, and if you want to left comments, remember you need to log in into your account. Otherwise, if you just join t", "attributesHtml": "<div><strong>class:</strong> key_concept</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">concept_name</span>: <span class=\"lx-attr-value\">YouTube Streaming</span>, <span class=\"lx-attr-key\">definition</span>: <span class=\"lx-attr-value\">Broadcasting video content live over the internet via the YouTube platform.</span>, <span class=\"lx-attr-key\">difficulty_rating</span>: <span class=\"lx-attr-value\">Beginner</span>, <span class=\"lx-attr-key\">simplified_explanation</span>: <span class=\"lx-attr-value\">Live video broadcast over YouTube, allowing remote viewers to watch in real-time.</span>}</div>"}, {"index": 2, "class": "key_concept", "text": "QR code. For those people coming late, scan the QR code on the whiteboard. That is for lottery game later on. On the whiteboard, not screen. Screen is different. Screen is for Slido. This QR code is for lottery.", "color": "#D2E3FC", "startPos": 698, "endPos": 705, "beforeText": "ss haven&#x27;t started. We still have five minutes.\n\n[TRANSCRIPT - 06:10]\nYes. Okay. Yes. Okay. So when you just coming late, please remember to scan the ", "extractionText": "QR code", "afterText": " on the whiteboard. I&#x27;m whiteboard, not on screen. For those people coming late, scan the QR code on the whiteboard. That is for lottery game later on", "attributesHtml": "<div><strong>class:</strong> key_concept</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">concept_name</span>: <span class=\"lx-attr-value\">QR Code</span>, <span class=\"lx-attr-key\">definition</span>: <span class=\"lx-attr-value\">A scannable code used for various purposes, in this context, for lottery participation and distinct from the Slido code.</span>, <span class=\"lx-attr-key\">difficulty_rating</span>: <span class=\"lx-attr-value\">Beginner</span>, <span class=\"lx-attr-key\">simplified_explanation</span>: <span class=\"lx-attr-value\">A QR code is a type of matrix barcode that can be scanned by devices like smartphones to quickly access information or perform an action, such as joining a lottery.</span>}</div>"}, {"index": 3, "class": "practical_insight", "text": "Scan the QR code before the class starts because once I start, I will not remind you again.", "color": "#C8E6C9", "startPos": 1034, "endPos": 1125, "beforeText": "en. Screen is different. Screen is for Slido. This QR code is for lottery.\n\n[TRANSCRIPT - 06:45]\nTo keep you the free computing things. So different. ", "extractionText": "Scan the QR code before the class starts because once I start, I will not remind you again.", "afterText": " Understand? Did you scan this one? Did you scan this one? This is very small. So you have to come whiteboard, whiteboard, the QR code on whiteboard.\n", "attributesHtml": "<div><strong>class:</strong> practical_insight</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">insight_type</span>: <span class=\"lx-attr-value\">Instruction</span>, <span class=\"lx-attr-key\">related_concept</span>: <span class=\"lx-attr-value\">QR Code</span>, <span class=\"lx-attr-key\">summary_of_insight</span>: <span class=\"lx-attr-value\">Ensure you scan the lottery QR code before the class officially begins, as reminders will not be given once the lecture starts.</span>}</div>"}, {"index": 4, "class": "practical_insight", "text": "for the people on the YouTube, and if you want to left comments, remember you need to log in into your account. Otherwise, if you just join the YouTube through guest, you do not have any right to comment.", "color": "#C8E6C9", "startPos": 1660, "endPos": 1864, "beforeText": "hat time. And, um, our screen actually is the Slido. And right now we also have the streaming on the YouTube. Can you hear me on the YouTube? So then ", "extractionText": "for the people on the YouTube, and if you want to left comments, remember you need to log in into your account. Otherwise, if you just join the YouTube through guest, you do not have any right to comment.", "afterText": " You need to log in and I will suggest you try to have the question on the Slido because when you left comments on the YouTube, it&#x27;s our TA responsibl", "attributesHtml": "<div><strong>class:</strong> practical_insight</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">insight_type</span>: <span class=\"lx-attr-value\">Platform Requirement</span>, <span class=\"lx-attr-key\">related_concept</span>: <span class=\"lx-attr-value\">YouTube Streaming</span>, <span class=\"lx-attr-key\">summary_of_insight</span>: <span class=\"lx-attr-value\">To comment on a YouTube stream, users must be logged into their account; guest access does not permit commenting.</span>}</div>"}, {"index": 5, "class": "practical_insight", "text": "you need to log in and I will suggest you try to have the question on the Slido because when you left comments on the YouTube, it's our TA responsible.", "color": "#C8E6C9", "startPos": 1865, "endPos": 2016, "beforeText": "comments, remember you need to log in into your account. Otherwise, if you just join the YouTube through guest, you do not have any right to comment. ", "extractionText": "You need to log in and I will suggest you try to have the question on the Slido because when you left comments on the YouTube, it&#x27;s our TA responsible.", "afterText": "\n", "attributesHtml": "<div><strong>class:</strong> practical_insight</div><div><strong>attributes:</strong> {<span class=\"lx-attr-key\">insight_type</span>: <span class=\"lx-attr-value\">Communication Channel</span>, <span class=\"lx-attr-key\">related_concept</span>: <span class=\"lx-attr-value\">Q&amp;A Management</span>, <span class=\"lx-attr-key\">summary_of_insight</span>: <span class=\"lx-attr-value\">Use Slido for questions during the lecture as it is monitored by the instructor, whereas YouTube comments are handled by TAs.</span>}</div>"}];
+        let currentIndex = 0;
+        let isPlaying = false;
+        let animationInterval = null;
+        let animationSpeed = 1.0;
+
+        function updateDisplay() {
+          const extraction = extractions[currentIndex];
+          if (!extraction) return;
+
+          document.getElementById('attributesContainer').innerHTML = extraction.attributesHtml;
+          document.getElementById('entityInfo').textContent = (currentIndex + 1) + '/' + extractions.length;
+          document.getElementById('posInfo').textContent = '[' + extraction.startPos + '-' + extraction.endPos + ']';
+          document.getElementById('progressSlider').value = currentIndex;
+
+          const playBtn = document.querySelector('.lx-control-btn');
+          if (playBtn) playBtn.textContent = isPlaying ? '⏸ Pause' : '▶️ Play';
+
+          const prevHighlight = document.querySelector('.lx-text-window .lx-current-highlight');
+          if (prevHighlight) prevHighlight.classList.remove('lx-current-highlight');
+          const currentSpan = document.querySelector('.lx-text-window span[data-idx="' + currentIndex + '"]');
+          if (currentSpan) {
+            currentSpan.classList.add('lx-current-highlight');
+            currentSpan.scrollIntoView({block: 'center', behavior: 'smooth'});
+          }
+        }
+
+        function nextExtraction() {
+          currentIndex = (currentIndex + 1) % extractions.length;
+          updateDisplay();
+        }
+
+        function prevExtraction() {
+          currentIndex = (currentIndex - 1 + extractions.length) % extractions.length;
+          updateDisplay();
+        }
+
+        function jumpToExtraction(index) {
+          currentIndex = parseInt(index);
+          updateDisplay();
+        }
+
+        function playPause() {
+          if (isPlaying) {
+            clearInterval(animationInterval);
+            isPlaying = false;
+          } else {
+            animationInterval = setInterval(nextExtraction, animationSpeed * 1000);
+            isPlaying = true;
+          }
+          updateDisplay();
+        }
+
+        window.playPause = playPause;
+        window.nextExtraction = nextExtraction;
+        window.prevExtraction = prevExtraction;
+        window.jumpToExtraction = jumpToExtraction;
+
+        updateDisplay();
+      })();
+    </script>
